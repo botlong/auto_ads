@@ -67,7 +67,7 @@ export const DailyAlertDashboard: React.FC = () => {
 
   if (loading && !alertData) {
     return (
-      <div className="alert-dashboard-loading">
+      <div className="dashboard alert-dashboard-loading">
         <div className="spinner"></div>
         <p>正在扫描告警...</p>
       </div>
@@ -76,7 +76,7 @@ export const DailyAlertDashboard: React.FC = () => {
 
   if (!alertData) {
     return (
-      <div className="alert-dashboard-empty">
+      <div className="dashboard alert-dashboard-empty">
         <h3>🚨 Daily Alert 实时监控</h3>
         <p>24/7 自动监控账户异常</p>
         <button className="btn btn-primary" onClick={fetchAlerts}>
@@ -89,7 +89,7 @@ export const DailyAlertDashboard: React.FC = () => {
   const filteredAlerts = getFilteredAlerts();
 
   return (
-    <div className="daily-alert-dashboard">
+    <div className="dashboard daily-alert-dashboard">
       {/* 头部控制栏 */}
       <div className="alert-dashboard-header">
         <div className="header-left">

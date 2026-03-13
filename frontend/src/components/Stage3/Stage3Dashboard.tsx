@@ -40,7 +40,7 @@ export const Stage3Dashboard: React.FC<Stage3DashboardProps> = ({
 
   if (loading) {
     return (
-      <div className="stage3-loading">
+      <div className="dashboard stage3-loading">
         <div className="spinner"></div>
         <p>正在执行 Workstream 诊断...</p>
       </div>
@@ -49,7 +49,7 @@ export const Stage3Dashboard: React.FC<Stage3DashboardProps> = ({
 
   if (!diagnosis) {
     return (
-      <div className="stage3-empty">
+      <div className="dashboard stage3-empty">
         <h3>Stage 3 - Workstream 执行</h3>
         <p>选择 Campaign 开始执行优化工作流</p>
         <button className="btn btn-primary" onClick={runDiagnosis}>
@@ -60,7 +60,7 @@ export const Stage3Dashboard: React.FC<Stage3DashboardProps> = ({
   }
 
   return (
-    <div className="stage3-dashboard">
+    <div className="dashboard stage3-dashboard">
       {/* Workstream 概览 */}
       <div className="workstream-overview">
         <h3 className="section-title">🚀 Stage 3 Workstream 执行概览</h3>

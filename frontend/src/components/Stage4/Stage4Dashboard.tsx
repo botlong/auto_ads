@@ -33,7 +33,7 @@ export const Stage4Dashboard: React.FC<Stage4DashboardProps> = ({
 
   if (loading) {
     return (
-      <div className="stage4-loading">
+      <div className="dashboard stage4-loading">
         <div className="spinner"></div>
         <p>正在执行战略分析...</p>
       </div>
@@ -42,7 +42,7 @@ export const Stage4Dashboard: React.FC<Stage4DashboardProps> = ({
 
   if (!diagnosis) {
     return (
-      <div className="stage4-empty">
+      <div className="dashboard stage4-empty">
         <h3>Stage 4 - 高级测试与战略</h3>
         <p>选择 Campaign 开始 90 天战略复盘与 A/B 测试分析</p>
         <button className="btn btn-primary" onClick={runDiagnosis}>
@@ -53,7 +53,7 @@ export const Stage4Dashboard: React.FC<Stage4DashboardProps> = ({
   }
 
   return (
-    <div className="stage4-dashboard">
+    <div className="dashboard stage4-dashboard">
       {/* 汇总概览 */}
       <div className="stage4-overview">
         <h3 className="section-title">🎯 Stage 4 战略概览</h3>
