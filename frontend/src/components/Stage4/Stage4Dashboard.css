@@ -1,5 +1,11 @@
 /* Stage 4 Dashboard Styles */
 
+.stage4-dashboard {
+  padding: 24px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
 .stage4-loading {
   display: flex;
   flex-direction: column;
@@ -7,6 +13,8 @@
   justify-content: center;
   padding: 60px 20px;
   color: #64748b;
+  min-height: 100vh;
+  background: #f8fafc;
 }
 
 .stage4-loading .spinner {
@@ -23,6 +31,12 @@
   text-align: center;
   padding: 60px 20px;
   color: #64748b;
+  min-height: 100vh;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .stage4-empty h3 {

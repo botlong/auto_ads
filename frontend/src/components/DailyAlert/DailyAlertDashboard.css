@@ -1,5 +1,11 @@
 /* Daily Alert Dashboard Styles */
 
+.daily-alert-dashboard {
+  padding: 24px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
 .alert-dashboard-loading {
   display: flex;
   flex-direction: column;
@@ -7,6 +13,8 @@
   justify-content: center;
   padding: 60px 20px;
   color: #64748b;
+  min-height: 100vh;
+  background: #f8fafc;
 }
 
 .alert-dashboard-loading .spinner {
@@ -23,6 +31,12 @@
   text-align: center;
   padding: 60px 20px;
   color: #64748b;
+  min-height: 100vh;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .alert-dashboard-empty h3 {
@@ -35,10 +49,6 @@
 }
 
 /* Dashboard Header */
-.daily-alert-dashboard {
-  padding: 0;
-}
-
 .alert-dashboard-header {
   display: flex;
   justify-content: space-between;
