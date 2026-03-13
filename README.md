@@ -96,7 +96,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-后端服务将在 `http://localhost:8080` 启动
+后端服务将在 `http://localhost:8000` 启动
 
 ### 3. 启动前端
 
@@ -106,11 +106,11 @@ npm install
 npm run dev
 ```
 
-前端服务将在 `http://localhost:5179` 启动
+前端服务将在 `http://localhost:5173` 启动
 
 ### 4. 访问系统
 
-打开浏览器访问 `http://localhost:5179`
+打开浏览器访问 `http://localhost:5173`
 
 ## API 端点
 
@@ -222,6 +222,6 @@ MIT License
 
 ---
 
-**系统版本**: v1.0
-**最后更新**: 2026-03-12
+**系统版本**: v1.0.1
+**最后更新**: 2026-03-13
 **SOP 覆盖**: 94/94 (100%)
